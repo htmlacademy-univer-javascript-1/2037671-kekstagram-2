@@ -1,5 +1,5 @@
-import {createComment} from './util';
-import {getRandomPositiveInteger} from './util';
+import {createComment} from './util.js';
+import {getRandomPositiveInteger} from './util.js';
 export function createFinalArray() {
   const finalArray = [];
   for (let i =0; i<25;i++) {

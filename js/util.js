@@ -1,5 +1,5 @@
-import {names} from './data';
-import {messages} from './data';
+import {names} from './data.js';
+import {messages} from './data.js';
 
 export function getRandomPositiveInteger (a, b) {
   const lower = Math.ceil(Math.min(Math.abs(a), Math.abs(b)));
