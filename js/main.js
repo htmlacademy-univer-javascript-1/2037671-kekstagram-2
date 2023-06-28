@@ -1,3 +1,6 @@
-import {createFinalArray} from './mainFunctional';
+import {createFinalArray} from './mainFunctional.js';
+import {renderImage} from './render.js';
 
-createFinalArray();
+const dataArray = createFinalArray();
+dataArray.forEach((value)=>{renderImage(value.url, value.likes, value.comments.length);});
+
